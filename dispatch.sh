@@ -1,4 +1,4 @@
-color="\e[35m"
+color="\e[36m"
 no_color="\e[0m"
 
 echo -e "$color Copy Dispatch Service file $no_color"
