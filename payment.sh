@@ -7,6 +7,7 @@ echo -e "$color Install Python $no_color"
 dnf install python3 gcc python3-devel -y
 
 echo -e "$color Add Application User $no_color"
+useradd roboshop
 
 echo -e "$color Create Application Directory $no_color"
 rm -rf /app
