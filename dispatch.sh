@@ -1,5 +1,4 @@
-color="\e[36m"
-no_color="\e[0m"
+source common.sh
 
 echo -e "$color Copy Dispatch Service file $no_color"
 cp dispatch.service /etc/systemd/system/dispatch.service
